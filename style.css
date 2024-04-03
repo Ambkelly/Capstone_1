@@ -1,0 +1,585 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #F5FCF4;
+}
+p, b{
+  font-family: Raleway;
+  color: #3B413A;
+  font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Poppins;
+  color: #3B413A;
+  font-size: 35px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.container{
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Hero_section{
+    /* border: 1px solid black; */
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hero_image{
+    /* border: 1px solid red; */
+    height: fit-content;
+}
+.hero_content img{
+    width: 100%
+}
+.hero_image h1{
+    font-weight: 600;
+}
+.mobile_h1{
+    display: none;
+}
+.hero_image p{
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button{
+    border: 1px solid transparent;
+    align-items: center;
+    gap: 20px;
+}
+.button h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #26643B;
+    font-weight: 600;
+}
+button{
+    padding: 10px 20px;
+}
+.mobile_p{
+    display: none;
+}
+@media(max-width:348px){ 
+  .desk_top_p{
+    display: none;
+  }  
+  .mobile_p{
+    display: block;
+    /* border: 1px solid red; */
+  }
+  .button{
+    justify-content: center;
+    gap: 5px;
+  }
+ .button h2{
+    padding-top: 0px;
+ }
+ }
+ .another{
+    margin-top: 200px;
+ }
+ .Our_Specials{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    gap: 33px;
+    margin-top: 100px;
+ }
+  .Fries_Bowl{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 28%;
+    height: fit-content;
+   
+    
+ }
+ .Fries_Bowl_images{
+    /* border: 1px solid black; */
+    width: 100%;
+    border-radius: 10px;
+    flex-direction: column;
+     position: relative;
+     top: 10px;
+    z-index: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .Fries_Bowl_images img{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+ }
+ .Fries_Bowl_content{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding-bottom: 20px;
+    height: fit-content;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #D6E5D8;
+ }
+.Fries_Bowl_content h1{
+    font-size: 25px;
+}
+.Fries_Bowl_content h2{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #26643B;
+}
+.Fries_Bowl_content p{
+    font-size: 16px;
+    line-height: 23px;
+   
+}
+.content{
+   /* border: 1px solid black; */
+   width: 35%;
+   align-items: start;
+ }
+ .content h1{
+    font-weight: 400;
+    padding-bottom: 20px;
+ }
+ .content p{
+    padding-bottom: 20px;
+ }
+.Top_Dishes_content img{
+    padding-left: 10px;
+}
+ .Top_Dishes_content h1{
+    font-size: 20px;
+ }
+ .Top_Dishes_content h2{
+    font-size: 20px;
+ }
+ .Demo_dish{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    height: fit-content;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #D6E5D8;
+ }
+ .Demo_items{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 350px;
+ }
+ .Demo_items img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+ }
+ .Demo_item{
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: 300px;
+    flex-direction: column;
+ }
+ .per{
+    font-size: 25px;
+    font-weight: 800;
+    color: #26643B;
+ }
+ .Demo_item h1{
+   padding-top: 0px;
+   line-height: 35px;
+ }
+ .h2{
+    padding-top: 10px;
+    color: #3B413A;
+    font-size: 25px;
+    font-weight: 800;
+ }
+ .Pesto{
+    font-size: 25px;
+    font-weight: 800;
+    color: #26643B;
+ }
+ .Demo_item img{
+    width: 8rem;
+    height: 1.2rem;
+ }
+ .bnt{
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin-top: 20px;
+ }
+ @media(max-width:1000px){
+    .tablet{
+        display: none;
+    }
+    .Demo_items{
+        width: 28%;
+    }
+    .Demo_item{
+        width: 40%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer{
+    background-color: #D6E5D8;
+    height: fit-content;
+    margin-top: 100px;
+}
+.footer_container{
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.Follow_us{
+    /* border: 1px solid red; */
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.Follow_us img{
+    width: 50%;
+    padding-bottom: 20px;
+}
+.Follow_us h5 {
+    font-weight: 500;
+    font-size: 20px;
+}
+.Follow_us p{
+    line-height: 25px;
+}
+.svg{
+    gap: 10px;
+}
+.footer_svg{
+    border: 1px solid #B2E0A9;
+    border-radius: 6px;
+    background-color: #E8E8E8;
+    padding: 6px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.Links{
+    /* border: 1px solid red; */
+    height: 100%;
+    flex-direction: column;
+   
+}
+a{
+    text-decoration: none;
+    color: #3B413A;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: raleway;
+}
+
+
+  /* Desktop Devices Large, Xlarge, XXLarge */
+/* Large */
+@media(min-width:992px){
+    .col-lg-1{
+        width: 8.33%;
+   }
+   .col-lg-2{
+    width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+/* Tablet Devices - Small and Medium */
+/* Medium Devices */
+@media(min-width:768px) and (max-width:991px){
+    .Our_Specials{
+        justify-content: center;
+    }
+    .Fries_Bowl{
+        width: 45%;
+    }
+    .content{
+        justify-content: center;
+    }
+    .col-md-1{
+        width: 8.33%;
+   }
+   .col-md-2{
+    width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+/* Small Devices */
+@media(max-width:767px){
+    h1, h2, h3, h4, h5, h6{
+        font-size: 20px;
+    }
+    p, b {
+        font-size: 14px;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .ul{
+        display: none;
+    }
+    .hambuger{
+        display: block;
+    }
+    .desk_top_h1{
+    display: none;
+    }
+    .mobile_h1{
+    display: block;
+    }
+    .Hero_section{
+        justify-content: center;
+    }
+    .hero_image{
+        order: 2;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero_content img{
+        width: 100%;
+        text-align: center;
+    }
+    button{
+        font-size: 15px;
+    }
+    .button h2{
+        font-size: 15px;
+    }
+    .another{
+        margin-top: 100px;
+    }
+    .Fries_Bowl{
+        width: 46%;
+    }
+    .Our_Specials{
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .content{
+        justify-content: center;
+    }
+    .first{
+        width: 38%;
+        height: 100%;
+    }
+    .first img{
+        width: 100%;
+        height: 500px;
+    }
+    .second{
+        width: 60%;
+        height: 50%;
+    }
+    .second img{
+        width: 100%;
+        height: 500px;
+    }
+    .Demo_item h2{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .Demo_item h1{
+        font-size: 18px;
+    }
+    .Pesto{
+        font-size: 15px;
+    }
+    .Demo_item img{
+        width: 6rem;
+        height: 1rem;
+        margin-top: 10px;
+    }
+    .bnt{
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 10px 20px;
+        align-self: self-start;
+    }
+
+    .col-sm-1{
+        width: 8.33%;
+   }
+   .col-sm-2{
+    width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+/* Mobile Devices - Extra Small */
+/* Extra Small Devices */
+@media(max-width:575px){
+    .Fries_Bowl{
+        width: 80%;
+    }
+    .Our_Specials{
+        justify-content: center;
+    }
+    .content{
+        justify-content: center;
+    }
+   .col-1{
+        width: 8.33%;
+   }
+   .col-2{
+    width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
