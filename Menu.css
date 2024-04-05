@@ -105,6 +105,7 @@ nav{
     padding-bottom: 10px;
   }
   .Sweet_Potato_content img{
+    border-radius: 10px;
     width: 100%;
     height: 200px;
   }
@@ -133,13 +134,16 @@ nav{
     height: 130px;
     background-color: #D6E5D8;
     border-radius: 10px;
+    padding-left: 20px;
   }
   .Top_Dishes_content img{
+    /* border: 1px solid black; */
     width: 40%;
     height: 100px;
     border-radius: 10px;
     align-self: center;
   }
+  
   .Hot{
     /* border: 1px solid black; */
     width: 60%;
@@ -158,6 +162,17 @@ nav{
 .Hot h2{
     padding-top: 0;
 }
+@media(max-width:562px){
+ #Top_Dishes_img{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding-left: 10px;
+     max-width: auto;
+     max-height: auto;
+    /* border: 1px solid red; */
+        
+    }
+ }
 @media(max-width:1431px){
     .Top_Dishes_content{
      width: 49%;
@@ -221,8 +236,12 @@ nav{
    }
    @media(max-width:449px){
     .Sweet_Potato{
-        border: 1px solid black;
+        /* border: 1px solid black; */
         width: 100%;
+    }
+    .Sweet_Potato_img{
+        max-width: 90%;
+        max-height: auto;
     }
     }
    @media(max-width:322px){
@@ -232,7 +251,7 @@ nav{
     }
     @media(min-width:451px)and(max-width:767px){
         .Sweet_Potato{
-            border: 1px solid black;
+            /* border: 1px solid black; */
             width: 70%;
         }
         }
@@ -292,6 +311,12 @@ a{
     line-height: 30px;
     font-family: raleway;
 }
+.copy_right{
+    background-color: #F5FCF4;
+    height: 100px;
+    padding-top: 20px;
+}
+
 
 
 
@@ -453,6 +478,10 @@ a{
 /* Mobile Devices - Extra Small */
 /* Extra Small Devices */
 @media(max-width:575px){
+    .Sweet_Potato{
+        width: 100%;
+    }
+  
    .col-1{
         width: 8.33%;
    }

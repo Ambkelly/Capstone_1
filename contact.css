@@ -167,6 +167,11 @@ a{
     line-height: 30px;
     font-family: raleway;
 }
+.copy_right{
+    background-color: #F5FCF4;
+    height: 100px;
+    padding-top: 20px;
+}
 
 
 
