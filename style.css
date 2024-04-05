@@ -20,6 +20,48 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 500;
   padding-top: 20px;
 }
+nav{
+    /* border: 1px solid black; */
+    align-items: center;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 150px;
+  }
+  ul{
+    /* border: 1px solid black; */
+    margin-left: auto;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    font-size: 17px;
+    font-family: poppins;
+    color: #266459;
+  }
+  button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+   font-family: poppins;
+    background-color: #26643B;
+    color: #E8E8E3;
+  }
+  ul a{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  button a{
+    color: #D6E5D8;
+  }
+  .hambuger{
+    display: none;
+  }
+  #small_device{
+    display: none;
+  }
+  #close{
+    width: 50px;
+  }
 .container{
   /* border: 1px solid black; */
   width: 80%;
@@ -457,11 +499,6 @@ button{
     font-weight: 600;
     padding-left: 20px;
 }
-.footer{
-    background-color: #D6E5D8;
-    height: fit-content;
-    margin-top: 100px;
-}
 .footer_container{
     /* border: 1px solid red; */
     justify-content: space-between;
@@ -480,7 +517,7 @@ button{
 }
 .Follow_us h5 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
 }
 .Follow_us p{
     line-height: 25px;
@@ -500,7 +537,12 @@ button{
 .Links{
     /* border: 1px solid red; */
     height: 100%;
-    flex-direction: column;  
+    flex-direction: column;
+    margin-top: 20px;
+}
+.Links b{
+    font-size: 18px;
+    font-weight: 600;
 }
 a{
     text-decoration: none;
@@ -508,6 +550,7 @@ a{
     font-size: 18px;
     line-height: 30px;
     font-family: raleway;
+    margin-top: 5px;
 }
 .copy_right{
     background-color: #F5FCF4;
@@ -631,6 +674,9 @@ a{
     .hambuger{
         display: block;
     }
+    #small_device{
+        display: block;
+    }
     .desk_top_h1{
     display: none;
     }
@@ -744,6 +790,10 @@ a{
         margin: 0 auto;
         margin-bottom: 20px;
     }
+    .Join_Newsletter_form{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
     .col-sm-1{
         width: 8.33%;
    }
@@ -849,8 +899,32 @@ a{
 }
 
 
+@media(max-width:425px){ 
+    .box{
+        margin: 0 auto;
+        justify-content: unset;
+        gap: 10px;
+        justify-content: center;
+       
+    }
+    .Our_Food_box{
+        width: 45%;
+        height: 120px;
+        margin-top: 5px;
+    }
+    .Our_Food_box h3{
+        font-size: 12px;
+    }
+    .Our_Food_box img{
+        width: 30%;
+    }
+ }
+
+ @media(max-width:415px){ 
+    .box{
+        width: 80%;
+    }
+  }
 
 
-
-
-
+ 

@@ -106,64 +106,63 @@ nav{
         /* border: 1px solid black; */
         height: fit-content
     }
-.footer{
-    background-color: #D6E5D8;
-    height: fit-content;
-    margin-top: 100px;
-}
-.footer_container{
-    /* border: 1px solid red; */
-    justify-content: space-between;
-    padding-top: 70px;
-    padding-bottom: 50px;
-}
-.Follow_us{
-    /* border: 1px solid red; */
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-}
-.Follow_us img{
-    width: 50%;
-    padding-bottom: 20px;
-}
-.Follow_us h5 {
-    font-weight: 500;
-    font-size: 20px;
-}
-.Follow_us p{
-    line-height: 25px;
-}
-.svg{
-    gap: 10px;
-}
-.footer_svg{
-    border: 1px solid #B2E0A9;
-    border-radius: 6px;
-    background-color: #E8E8E8;
-    padding: 6px;
-    justify-content: center;
-    margin-top: 20px;
-    
-}
-.Links{
-    /* border: 1px solid red; */
-    height: 100%;
-    flex-direction: column;
-   
-}
-a{
-    text-decoration: none;
-    color: #3B413A;
-    font-size: 18px;
-    line-height: 30px;
-    font-family: raleway;
-}
-.copy_right{
-    background-color: #F5FCF4;
-    height: 100px;
-    padding-top: 20px;
-}
+    .footer_container{
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .Follow_us{
+        /* border: 1px solid red; */
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Follow_us img{
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    .Follow_us h5 {
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .Follow_us p{
+        line-height: 25px;
+    }
+    .svg{
+        gap: 10px;
+    }
+    .footer_svg{
+        border: 1px solid #B2E0A9;
+        border-radius: 6px;
+        background-color: #E8E8E8;
+        padding: 6px;
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+    .Links{
+        /* border: 1px solid red; */
+        height: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .Links b{
+        font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        color: #3B413A;
+        font-size: 18px;
+        line-height: 30px;
+        font-family: raleway;
+        margin-top: 5px;
+    }
+    .copy_right{
+        background-color: #F5FCF4;
+        height: 100px;
+        padding-top: 20px;
+    }
 
 
 
@@ -275,6 +274,9 @@ a{
     .hambuger{
         display: block;
 
+    }
+    #small_device{
+        display: block;
     }
     .Our_Story_image p{
         line-height: 19px;

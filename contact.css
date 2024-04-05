@@ -65,6 +65,12 @@ nav{
   .hambuger{
     display: none;
   }
+  #small_device{
+    display: none;
+  }
+  #close{
+    width: 50px;
+  }
 .wall_clock{
     /* border: 1px solid black; */
     gap: 20px;
@@ -114,11 +120,6 @@ textarea{
      border: none;
       outline: none;
 }
-.footer{
-    background-color: #D6E5D8;
-    height: fit-content;
-    margin-top: 100px;
-}
 .footer_container{
     /* border: 1px solid red; */
     justify-content: space-between;
@@ -137,7 +138,7 @@ textarea{
 }
 .Follow_us h5 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
 }
 .Follow_us p{
     line-height: 25px;
@@ -158,7 +159,10 @@ textarea{
     /* border: 1px solid red; */
     height: 100%;
     flex-direction: column;
-   
+    margin-top: 20px;
+}
+.Links b{
+    font-size: 18px;
 }
 a{
     text-decoration: none;
@@ -166,13 +170,13 @@ a{
     font-size: 18px;
     line-height: 30px;
     font-family: raleway;
+    margin-top: 5px;
 }
 .copy_right{
     background-color: #F5FCF4;
     height: 100px;
     padding-top: 20px;
 }
-
 
 
 
@@ -289,6 +293,9 @@ a{
     .hambuger{
         display: block;
 
+    }
+    #small_device{
+        display: block;
     }
     .clock{
         height: 150px;

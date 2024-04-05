@@ -65,6 +65,12 @@ nav{
   .hambuger{
     display: none;
   }
+  #small_device{
+    display: none;
+  }
+  #close{
+    width: 50px;
+  }
 .Contact_Inquiry{
     /* border: 1px solid black; */
     height: fit-content;
@@ -108,11 +114,6 @@ select{
     outline: none;
     font-size: 18px;
 }
-.footer{
-    background-color: #D6E5D8;
-    height: fit-content;
-    margin-top: 100px;
-}
 .footer_container{
     /* border: 1px solid red; */
     justify-content: space-between;
@@ -131,7 +132,7 @@ select{
 }
 .Follow_us h5 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
 }
 .Follow_us p{
     line-height: 25px;
@@ -152,7 +153,10 @@ select{
     /* border: 1px solid red; */
     height: 100%;
     flex-direction: column;
-   
+    margin-top: 20px;
+}
+.Links b{
+    font-size: 22px;
 }
 a{
     text-decoration: none;
@@ -160,13 +164,13 @@ a{
     font-size: 18px;
     line-height: 30px;
     font-family: raleway;
+    margin-top: 5px;
 }
 .copy_right{
     background-color: #F5FCF4;
     height: 100px;
     padding-top: 20px;
 }
-
 
 
 
@@ -283,7 +287,10 @@ a{
     .hambuger{
         display: block;
 
-    }    
+    }  
+    #small_device{
+        display: block;
+    }  
     .col-sm-1{
         width: 8.33%;
    }
