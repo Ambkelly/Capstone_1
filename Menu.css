@@ -281,7 +281,7 @@ nav{
 }
 .Follow_us h5 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
 }
 .Follow_us p{
     line-height: 25px;
@@ -302,7 +302,10 @@ nav{
     /* border: 1px solid red; */
     height: 100%;
     flex-direction: column;
-   
+    margin-top: 20px;
+}
+.Links b{
+    font-size: 22px;
 }
 a{
     text-decoration: none;
@@ -310,6 +313,7 @@ a{
     font-size: 18px;
     line-height: 30px;
     font-family: raleway;
+    margin-top: 5px;
 }
 .copy_right{
     background-color: #F5FCF4;
