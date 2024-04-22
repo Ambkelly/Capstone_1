@@ -478,7 +478,6 @@ button{
    padding-bottom: 50px;
 }
 .Join_Newsletter_text{
-    /* border: 1px solid black; */
     padding-left: 20px;
 }
 .Join_Newsletter_form{
@@ -841,6 +840,7 @@ a{
         justify-content: center;
     }
     .content{
+        border: 1px solid black;
         justify-content: center;
     }
     .playIcon{
